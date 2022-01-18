@@ -1,0 +1,22 @@
+.grid-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: lightgreen;
+}
+
+#image {
+    grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: row1-start;
+  grid-row-end: last-line;
+}
+
+#name{
+    grid-column-start: 2;
+  grid-column-end: 2;
+}
